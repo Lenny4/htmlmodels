@@ -95,9 +95,9 @@ if ($action == 'delete_model')
 if ($action == "valid")
 {
 	$html_dir = '/htmlmodels/contract/'.$modele;
-	$content = GETPOST('contract_page_'.$page);
+	$content = $_POST['contract_page_' . $page];
 	$filename = DOL_DATA_ROOT.$html_dir.'/page'.$page.'.html';
-	$result = file_put_contents($filename, $content);
+    $result = file_put_contents($filename, $content);
 	if ($result === FALSE)
 	{
 		print '<br/>'.$langs->trans('CannotCreatePdfModel',$filename);
