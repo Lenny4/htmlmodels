@@ -1,0 +1,21 @@
+# Dolibarr language file - fr_FR - htmlmodels
+CHARSET=UTF-8
+Module140042Name=Modèles HTML
+Module140042Desc=Modèles HTML
+HTMLModelsSetup=Configuration des modèles HTML
+Record=Enregistrer
+ReInit=Réinitialiser
+ReInitAll=Réinitialiser toutes les pages
+DeleteAll=Tout supprimer
+Record=Enregistrer
+PageNb=Page %s
+NewModel=Nouveau modèle
+SelectModel=Choisir un modèle
+NewPage=Nouvelle page
+DeletePage=Supprimer la page
+DeleteModel=Supprimer le modèle
+ModelName=Nom du modèle
+CannotCreatePdfModel=Impossible de créer le fichier %s<br/><br/>Merci de le créer manuellement et d'y inclure le code suivant :<br/>
+ErrorDeletingDir=Erreur lors de la suppression du répertoire %s
+ErrorDeletingFile=Erreur lors de la suppression du fichier %s
+ErrorCopyingFile=Erreur lors de la copie de %s vers %s
